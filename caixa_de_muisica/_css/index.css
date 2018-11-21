@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@font-face {font-family: fun-sized; src: url("../_fonts/FunSized.ttf");}
+@font-face { font-family: "people"; src: url("../_fonts/beautiful-people/Beautiful People Personal Use.ttf");}
+
+*{padding: 0; margin: 0; color: white; font-family: "Arial";}
+body{background-image: url("../_image/backgroud-main.jpg");}
+
+/* CONFIGURAÇÃO DA ZONA DE LOGIN */
+.login-zone{display: block; float: right; margin-right: 20px; margin-top: 5px;}
+
+/* CONFIGURAÇÃO DO BANNER */
+.banner{background-image: url("../_image/banner2.jpeg"); height: 250px; padding-left: 20px;}
+.banner p{font-family: fun-sized; font-size: 65px;}
+
+/* CONFIGURAÇÃO DA ZONA "SOBRE" */
+.sobre-zone{width: 59%; float: left; margin-top: 50px;}
+.sobre-zone p{font-family: fun-sized; font-size: 70px; color: #38B0DE;}
+#text1{margin-left: 100px;}
+#text2{margin-left:150px; }
+#text3{margin-left: 180px;}
+
+/* CONFIGURAÇÃO DA  ZONA DE CADASTRO */
+.cadastro-zone{width: 40%; float: left; margin-top: 20px;}
+.cadastro-zone fieldset{padding: 20px;}
+.cadastro-zone legend{font-family: "people"; font-size: 40px;}
+.cadastro-zone p{padding: 15px; font-size: 19px;}
+.cadastro-zone input{margin-left: 10px;}
